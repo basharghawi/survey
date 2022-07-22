@@ -1,0 +1,74 @@
+#title,
+#description {
+  text-align: center;
+}
+
+body {
+  background-color: #413e77;
+  color: #ececef;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+#survey-form {
+  background-color: #272647e8;
+  width: 60vw;
+  max-width: 700px;
+  min-width: 480px;
+  margin: 0 auto;
+  padding: 25px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  border-radius: 8px;
+  background-color: #ffffffd5;
+  color: rgba(0, 0, 0, 0.589);
+  padding: 4px;
+}
+
+span {
+  font-size: 16px;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+#submit {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  height: 3em;
+  font-size: 1.1rem;
+  background-color: #37af65;
+  color: #ececef;
+  box-shadow: 5px 8px 1px rgba(99, 230, 190, 0.25);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+#submit:hover {
+  transform: translateX(5px) translateY(8px);
+  box-shadow: none;
+}
